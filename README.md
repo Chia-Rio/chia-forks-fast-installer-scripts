@@ -1,2 +1,3 @@
 # chia-forks-fast-installer-scripts
-Scripts to quickly install chia forks on Linux
+Скрипты для массовой установки форков Chia на Linux
+Инструкция на сайте https://chia.moscow/
