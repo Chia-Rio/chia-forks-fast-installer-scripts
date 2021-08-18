@@ -1,2 +1,2 @@
 # Скрипты для массовой установки форков Chia на Linux
-Инструкция на сайте https://chia.moscow/
+Инструкция на сайте https://chia.moscow/instruktsii/poshagovaya-instruktsiya-massovoj-ustanovki-i-nastrojki-forkov-chia-na-linux/
