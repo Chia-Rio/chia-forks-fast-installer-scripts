@@ -1,0 +1,18 @@
+[Unit]
+Description=Equality All
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=1
+User=toor
+Environment=PATH=/usr/share/chia/equality-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env equality start all
+ExecReload=/usr/bin/env equality start all -r
+ExecStop=/usr/bin/env equality stop all -d
+
+[Install]
+WantedBy=multi-user.target

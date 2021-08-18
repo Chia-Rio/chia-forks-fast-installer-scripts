@@ -1,0 +1,18 @@
+[Unit]
+Description=Chiadogecoin All
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=1
+User=toor
+Environment=PATH=/usr/share/chia/kale-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env kale start all
+ExecReload=/usr/bin/env kale start all -r
+ExecStop=/usr/bin/env kale stop all -d
+
+[Install]
+WantedBy=multi-user.target

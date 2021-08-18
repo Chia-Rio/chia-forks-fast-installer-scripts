@@ -1,0 +1,18 @@
+[Unit]
+Description=Apple All
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=1
+User=toor
+Environment=PATH=/usr/share/chia/apple-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env apple start all
+ExecReload=/usr/bin/env apple start all -r
+ExecStop=/usr/bin/env apple stop all -d
+
+[Install]
+WantedBy=multi-user.target
