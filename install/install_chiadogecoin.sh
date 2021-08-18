@@ -9,4 +9,4 @@ git clone https://github.com/ChiaDoge-Network/chiadogecoin.git
 cd chiadogecoin
 sh install.sh
 . ./activate
-chiadogecoin init
+chiadoge init
