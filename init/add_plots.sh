@@ -28,7 +28,7 @@ if [ -s $MYSRC/plots.txt ]
 then
   while read LINE
     do
-    $EXEC_FILE plots remove d "$LINE\r"
+    #$EXEC_FILE plots remove d "$LINE\r"
     $EXEC_FILE plots add -d $LINE
   done < $MYSRC/plots.txt
 else
