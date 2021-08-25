@@ -12,8 +12,6 @@ systemctl restart chaingreen.service
 #/usr/bin/sleep 10
 #systemctl restart chia.service
 /usr/bin/sleep 10
-systemctl restart chiadogecoin.service
-/usr/bin/sleep 10
 systemctl restart covid.service
 /usr/bin/sleep 10
 systemctl restart dogechia.service
@@ -24,8 +22,8 @@ systemctl restart flax.service
 /usr/bin/sleep 10
 systemctl restart flora.service
 /usr/bin/sleep 10
-#systemctl restart fork.service
-#/usr/bin/sleep 10
+systemctl restart fork.service
+/usr/bin/sleep 10
 systemctl restart goji.service
 /usr/bin/sleep 10
 systemctl restart greendoge.service
@@ -44,8 +42,6 @@ systemctl restart sector.service
 /usr/bin/sleep 10
 systemctl restart seno.service
 /usr/bin/sleep 10
-#systemctl restart shamrock.service
-#/usr/bin/sleep 10
 systemctl restart silicoin.service
 /usr/bin/sleep 10
 systemctl restart socks.service
@@ -58,3 +54,9 @@ systemctl restart tad.service
 /usr/bin/sleep 10
 systemctl restart wheat.service
 /usr/bin/sleep 10
+systemctl restart scam.service
+/usr/bin/sleep 10
+systemctl restart nchain.service
+/usr/bin/sleep 10
+#systemctl restart lucky.service
+#/usr/bin/sleep 10

@@ -10,8 +10,8 @@ echo "--- Chia.Moscow ----"
 echo "--------------------"
 echo "---- EXPORT SSL ----"
 echo "--------------------"
-echo "---- $EXEC_FILE ----"
-echo "--------------------"
+echo "----\033[00;32m $2 \033[0m----"
+echo "-------------------"
 
 PATH_CHIA=$1
 EXEC_FILE=$2

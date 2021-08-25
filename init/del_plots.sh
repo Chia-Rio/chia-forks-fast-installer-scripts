@@ -25,13 +25,13 @@ GREEN='\033[00;32m'
 cd $PATH_CHIA
 . ./activate
 
-if [ -s $MYSRC/add_plots.txt ]
+if [ -s $MYSRC/del_plots.txt ]
 then
   while read LINE
     do
-    $EXEC_FILE plots add -d $LINE
-  done < $MYSRC/add_plots.txt
+    $EXEC_FILE plots remove -d "$LINE"
+  done < $MYSRC/del_plots.txt
 else
-  echo "${RED}er: Plots file not found $MYSRC/add_plots.txt${RESTORE}"
+  echo "${RED}er: Plots file not found $MYSRC/del_plots.txt${RESTORE}"
 fi
 echo "deactivate"

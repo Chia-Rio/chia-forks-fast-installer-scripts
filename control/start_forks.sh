@@ -11,8 +11,6 @@ sudo systemctl start chaingreen.service
 #/usr/bin/sleep 10
 #sudo systemctl start chia.service
 /usr/bin/sleep 10
-sudo systemctl start chiadogecoin.service
-/usr/bin/sleep 10
 sudo systemctl start covid.service
 /usr/bin/sleep 10
 sudo systemctl start dogechia.service
@@ -43,8 +41,6 @@ sudo systemctl start sector.service
 /usr/bin/sleep 10
 sudo systemctl start seno.service
 /usr/bin/sleep 10
-#sudo systemctl start shamrock.service
-#/usr/bin/sleep 10
 sudo systemctl start silicoin.service
 /usr/bin/sleep 10
 sudo systemctl start socks.service
@@ -57,3 +53,9 @@ sudo systemctl start tad.service
 /usr/bin/sleep 10
 sudo systemctl start wheat.service
 /usr/bin/sleep 10
+systemctl start scam.service
+/usr/bin/sleep 10
+systemctl start nchain.service
+/usr/bin/sleep 10
+#systemctl start lucky.service
+#/usr/bin/sleep 10

@@ -11,6 +11,8 @@ echo "--- Chia.Moscow ---"
 echo "-------------------"
 echo "---- ADD KEYS -----"
 echo "-------------------"
+echo "----\033[00;32m $2 \033[0m----"
+echo "-------------------"
 
 PATH_CHIA=$1
 EXEC_FILE=$2
