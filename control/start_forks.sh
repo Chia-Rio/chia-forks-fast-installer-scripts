@@ -21,8 +21,8 @@ sudo systemctl start flax.service
 /usr/bin/sleep 10
 sudo systemctl start flora.service
 /usr/bin/sleep 10
-#sudo systemctl start fork.service
-#/usr/bin/sleep 10
+sudo systemctl start fork.service
+/usr/bin/sleep 10
 sudo systemctl start goji.service
 /usr/bin/sleep 10
 sudo systemctl start greendoge.service
