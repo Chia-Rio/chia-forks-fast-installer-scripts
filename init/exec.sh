@@ -18,7 +18,7 @@ sh $MYSRC/add_keys.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавлени�
 sh $MYSRC/add_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавление плотов
 sh $MYSRC/del_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Удаление плотов
 sh $MYSRC/import_config.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA $FARMER_HOST # Установка значений в конфигах форков
-sh $MYSRC/export_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Экспорт SSL
+#sh $MYSRC/export_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Экспорт SSL
 #sh $MYSRC/import_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Импорт SSL
 exit
 echo "deactivate"
