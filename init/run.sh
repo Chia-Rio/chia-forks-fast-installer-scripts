@@ -30,7 +30,7 @@ sh exec.sh "$PATH_FORKS/spare-blockchain" "spare" "$PATH_HOME/.spare-blockchain"
 sh exec.sh "$PATH_FORKS/taco-blockchain" "taco" "$PATH_HOME/.taco" "$FARMER_HOST:18623"
 sh exec.sh "$PATH_FORKS/tad-blockchain" "tad" "$PATH_HOME/.tad" "$FARMER_HOST:4447"
 sh exec.sh "$PATH_FORKS/wheat-blockchain" "wheat" "$PATH_HOME/.wheat" "$FARMER_HOST:21447"
-#sh exec.sh "$PATH_FORKS/lucky-blockchain" "chia" "$PATH_HOME/.lucky" "$FARMER_HOST:16667"
+sh exec.sh "$PATH_FORKS/lucky-blockchain" "lucky" "$PATH_HOME/.lucky" "$FARMER_HOST:16667"
 sh exec.sh "$PATH_FORKS/scam-blockchain" "scam" "$PATH_HOME/.scam" "$FARMER_HOST:9775"
 sh exec.sh "$PATH_FORKS/ext9-blockchain" "chia" "$PATH_HOME/.chia/ext9" "$FARMER_HOST:38447"
 
