@@ -1,5 +1,5 @@
 [Unit]
-Description=Apple Harvester
+Description=Lucky Harvester
 Wants=network-online.target
 After=network.target network-online.target
 StartLimitIntervalSec=0
