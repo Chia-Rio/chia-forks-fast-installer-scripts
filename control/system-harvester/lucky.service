@@ -10,9 +10,9 @@ Restart=always
 RestartSec=1
 User=toor
 Environment=PATH=/usr/share/chia/lucky-blockchain/venv/bin:${PATH}
-ExecStart=/usr/bin/env chia start harvester
-ExecReload=/usr/bin/env chia start harvester -r
-ExecStop=/usr/bin/env chia stop all -d
+ExecStart=/usr/bin/env lucky start harvester
+ExecReload=/usr/bin/env lucky start harvester -r
+ExecStop=/usr/bin/env lucky stop all -d
 
 [Install]
 WantedBy=multi-user.target
