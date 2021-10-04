@@ -1,0 +1,18 @@
+[Unit]
+Description=Tranzact All
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=1
+User=toor
+Environment=PATH=/usr/share/chia/tranzact-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env tranzact start all
+ExecReload=/usr/bin/env tranzact start all -r
+ExecStop=/usr/bin/env tranzact stop all -d
+
+[Install]
+WantedBy=multi-user.target

@@ -28,4 +28,5 @@ systemctl stop tad.service
 systemctl stop wheat.service
 systemctl stop scam.service
 systemctl stop nchain.service
-#systemctl stop lucky.service
+systemctl stop lucky.service
+systemctl restart tranzact.service

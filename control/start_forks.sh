@@ -57,5 +57,7 @@ systemctl start scam.service
 /usr/bin/sleep 10
 systemctl start nchain.service
 /usr/bin/sleep 10
-#systemctl start lucky.service
-#/usr/bin/sleep 10
+systemctl start lucky.service
+/usr/bin/sleep 10
+systemctl start tranzact.service
+/usr/bin/sleep 10

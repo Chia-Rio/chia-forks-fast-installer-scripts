@@ -33,4 +33,5 @@ sh exec.sh "$PATH_FORKS/wheat-blockchain" "wheat" "$PATH_HOME/.wheat" "$FARMER_H
 sh exec.sh "$PATH_FORKS/lucky-blockchain" "lucky" "$PATH_HOME/.lucky" "$FARMER_HOST:16667"
 sh exec.sh "$PATH_FORKS/scam-blockchain" "scam" "$PATH_HOME/.scam" "$FARMER_HOST:9775"
 sh exec.sh "$PATH_FORKS/ext9-blockchain" "chia" "$PATH_HOME/.chia/ext9" "$FARMER_HOST:38447"
+sh exec.sh "$PATH_FORKS/tranzact-blockchain" "tranzact" "$PATH_HOME/.tranzact" "$FARMER_HOST:8652"
 
