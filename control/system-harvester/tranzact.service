@@ -10,8 +10,8 @@ Restart=always
 RestartSec=1
 User=toor
 Environment=PATH=/usr/share/chia/tranzact-blockchain/venv/bin:${PATH}
-ExecStart=/usr/bin/env tranzact start harvester all
-ExecReload=/usr/bin/env tranzact start harvester all -r
+ExecStart=/usr/bin/env tranzact start harvester
+ExecReload=/usr/bin/env tranzact start harvester -r
 ExecStop=/usr/bin/env tranzact stop all -d
 
 [Install]

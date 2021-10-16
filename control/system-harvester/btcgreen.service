@@ -10,8 +10,8 @@ Restart=always
 RestartSec=1
 User=toor
 Environment=PATH=/usr/share/chia/btcgreen-blockchain/venv/bin:${PATH}
-ExecStart=/usr/bin/env btcgreen harvester all
-ExecReload=/usr/bin/env btcgreen harvester all -r
+ExecStart=/usr/bin/env btcgreen start harvester
+ExecReload=/usr/bin/env btcgreen start harvester -r
 ExecStop=/usr/bin/env btcgreen stop all -d
 
 [Install]
