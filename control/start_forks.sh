@@ -61,3 +61,10 @@ systemctl start lucky.service
 /usr/bin/sleep 10
 systemctl start tranzact.service
 /usr/bin/sleep 10
+systemctl start btcgreen.service
+/usr/bin/sleep 10
+systemctl start mint.service
+/usr/bin/sleep 10
+systemctl start mogua.service
+/usr/bin/sleep 10
+systemctl start staicoin.service

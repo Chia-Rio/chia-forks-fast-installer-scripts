@@ -29,4 +29,8 @@ systemctl stop wheat.service
 systemctl stop scam.service
 systemctl stop nchain.service
 systemctl stop lucky.service
-systemctl restart tranzact.service
+systemctl stop tranzact.service
+systemctl stop btcgreen.service
+systemctl stop mint.service
+systemctl stop mogua.service
+systemctl stop staicoin.service

@@ -9,4 +9,6 @@ git clone https://github.com/Tranzact-Network/tranzact-blockchain
 cd tranzact-blockchain
 sh install.sh
 . ./activate
-tranzact init
+tranzact show -a 83.11.197.175:8655
+tranzact show -a 83.130.137.231:8655
+tranzact show -a 93.190.241.59:8655

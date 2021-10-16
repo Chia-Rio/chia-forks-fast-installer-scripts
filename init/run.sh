@@ -35,3 +35,9 @@ sh exec.sh "$PATH_FORKS/scam-blockchain" "scam" "$PATH_HOME/.scam" "$FARMER_HOST
 sh exec.sh "$PATH_FORKS/ext9-blockchain" "chia" "$PATH_HOME/.chia/ext9" "$FARMER_HOST:38447"
 sh exec.sh "$PATH_FORKS/tranzact-blockchain" "tranzact" "$PATH_HOME/.tranzact" "$FARMER_HOST:8652"
 
+sh exec.sh "$PATH_FORKS/btcgreen-blockchain" "btcgreen" "$PATH_HOME/.btcgreen" "$FARMER_HOST:18655"
+sh exec.sh "$PATH_FORKS/mint-blockchain" "mint" "$PATH_HOME/.mint" "$FARMER_HOST:29227"
+sh exec.sh "$PATH_FORKS/mogua-blockchain" "mogua" "$PATH_HOME/.mogua" "$FARMER_HOST:6330"
+sh exec.sh "$PATH_FORKS/staicoin-blockchain" "staicoin" "$PATH_HOME/.staicoin" "$FARMER_HOST:1692"
+
+

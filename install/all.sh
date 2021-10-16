@@ -26,7 +26,11 @@ sh install_spare.sh
 sh install_taco.sh
 sh install_tad.sh
 sh install_wheat.sh
-
 sh install_scam.sh
 sh install_nchain.sh
-#sh install_lucky.sh
+sh install_lucky.sh
+sh install_station.sh
+sh install_btcgreen.sh
+sh install_tranzact.sh
+sh install_mint.sh
+sh install_mogua.sh

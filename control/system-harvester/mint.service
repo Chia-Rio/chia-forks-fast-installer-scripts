@@ -1,0 +1,18 @@
+[Unit]
+Description=Mint Harvester
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=1
+User=toor
+Environment=PATH=/usr/share/chia/mint-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env mint start harvester
+ExecReload=/usr/bin/env mint start harvester -r
+ExecStop=/usr/bin/env mint stop all -d
+
+[Install]
+WantedBy=multi-user.target

@@ -62,3 +62,10 @@ systemctl restart lucky.service
 /usr/bin/sleep 10
 systemctl restart tranzact.service
 /usr/bin/sleep 10
+systemctl restart btcgreen.service
+/usr/bin/sleep 10
+systemctl restart mint.service
+/usr/bin/sleep 10
+systemctl restart mogua.service
+/usr/bin/sleep 10
+systemctl restart staicoin.service
