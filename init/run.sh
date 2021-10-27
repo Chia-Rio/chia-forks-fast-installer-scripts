@@ -24,7 +24,7 @@ sh exec.sh "$PATH_FORKS/maize-blockchain" "maize" "$PATH_HOME/.maize" "$FARMER_H
 sh exec.sh "$PATH_FORKS/melati-blockchain" "melati" "$PATH_HOME/.melati" "$FARMER_HOST:2447"
 sh exec.sh "$PATH_FORKS/sector-blockchain" "sector" "$PATH_HOME/.sector" "$FARMER_HOST:5447"
 sh exec.sh "$PATH_FORKS/seno-blockchain" "seno" "$PATH_HOME/.seno2" "$FARMER_HOST:18447"
-sh exec.sh "$PATH_FORKS/silicoin-blockchain" "silicoin" "$PATH_HOME/.silicoin" "$FARMER_HOST:10447"
+sh exec.sh "$PATH_FORKS/silicoin-blockchain" "sit" "$PATH_HOME/.sit" "$FARMER_HOST:10447"
 sh exec.sh "$PATH_FORKS/socks-blockchain" "socks" "$PATH_HOME/.socks" "$FARMER_HOST:58447"
 sh exec.sh "$PATH_FORKS/spare-blockchain" "spare" "$PATH_HOME/.spare-blockchain" "$FARMER_HOST:9447"
 sh exec.sh "$PATH_FORKS/taco-blockchain" "taco" "$PATH_HOME/.taco" "$FARMER_HOST:18623"
