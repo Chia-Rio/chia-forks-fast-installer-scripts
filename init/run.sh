@@ -39,5 +39,6 @@ sh exec.sh "$PATH_FORKS/btcgreen-blockchain" "btcgreen" "$PATH_HOME/.btcgreen" "
 sh exec.sh "$PATH_FORKS/mint-blockchain" "mint" "$PATH_HOME/.mint" "$FARMER_HOST:29227"
 sh exec.sh "$PATH_FORKS/mogua-blockchain" "mogua" "$PATH_HOME/.mogua" "$FARMER_HOST:6330"
 sh exec.sh "$PATH_FORKS/staicoin-blockchain" "staicoin" "$PATH_HOME/.staicoin" "$FARMER_HOST:1692"
+sh exec.sh "$PATH_FORKS/aedge-blockchain" "aedge" "$PATH_HOME/.aedge" "$FARMER_HOST:8959"
 
 
