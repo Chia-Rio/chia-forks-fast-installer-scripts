@@ -7,12 +7,12 @@ StartLimitIntervalSec=0
 [Service]
 Type=forking
 Restart=always
-RestartSec=1
+RestartSec=30
 User=toor
 Environment=PATH=/usr/share/chia/staicoin-blockchain/venv/bin:${PATH}
-ExecStart=/usr/bin/env staicoin start all
-ExecReload=/usr/bin/env staicoin start all -r
-ExecStop=/usr/bin/env staicoin stop all -d
+ExecStart=/usr/bin/env stai start all
+ExecReload=/usr/bin/env stai start all -r
+ExecStop=/usr/bin/env stai stop all -d
 
 [Install]
 WantedBy=multi-user.target

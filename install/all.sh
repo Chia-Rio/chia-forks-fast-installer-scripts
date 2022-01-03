@@ -35,3 +35,4 @@ sh install_tranzact.sh
 sh install_mint.sh
 sh install_mogua.sh
 sh install_aedge.sh
+sh install_stor.sh

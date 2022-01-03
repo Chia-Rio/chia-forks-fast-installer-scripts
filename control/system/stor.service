@@ -1,0 +1,18 @@
+[Unit]
+Description=Stor All
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=30
+User=toor
+Environment=PATH=/usr/share/chia/stor-blockchain/venv/bin:${PATH}
+ExecStart=/usr/bin/env stor start all
+ExecReload=/usr/bin/env stor start all -r
+ExecStop=/usr/bin/env stor stop all -d
+
+[Install]
+WantedBy=multi-user.target

@@ -1,5 +1,5 @@
 [Unit]
-Description=Lucky All
+Description=Apple All
 Wants=network-online.target
 After=network.target network-online.target
 StartLimitIntervalSec=0
@@ -7,7 +7,7 @@ StartLimitIntervalSec=0
 [Service]
 Type=forking
 Restart=always
-RestartSec=1
+RestartSec=30
 User=toor
 Environment=PATH=/usr/share/chia/lucky-blockchain/venv/bin:${PATH}
 ExecStart=/usr/bin/env lucky start all

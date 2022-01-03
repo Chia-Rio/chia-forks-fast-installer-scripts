@@ -1,2 +1,2 @@
 /media/farm/HDD1
-/media/farm/HDD
+/media/farm/HDD2 

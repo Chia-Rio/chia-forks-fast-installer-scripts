@@ -2,7 +2,6 @@
 PATH_FORKS="/usr/share/chia"
 PATH_HOME="/home/toor"
 FARMER_HOST="192.168.0.222"
-
 sh exec.sh "$PATH_FORKS/apple-blockchain" "apple" "$PATH_HOME/.apple" "$FARMER_HOST:26667"
 sh exec.sh "$PATH_FORKS/avocado-blockchain" "avocado" "$PATH_HOME/.avocado" "$FARMER_HOST:6868"
 sh exec.sh "$PATH_FORKS/cactus-blockchain" "cactus" "$PATH_HOME/.cactus" "$FARMER_HOST:11447"
@@ -24,7 +23,6 @@ sh exec.sh "$PATH_FORKS/maize-blockchain" "maize" "$PATH_HOME/.maize" "$FARMER_H
 sh exec.sh "$PATH_FORKS/melati-blockchain" "melati" "$PATH_HOME/.melati" "$FARMER_HOST:2447"
 sh exec.sh "$PATH_FORKS/sector-blockchain" "sector" "$PATH_HOME/.sector" "$FARMER_HOST:5447"
 sh exec.sh "$PATH_FORKS/seno-blockchain" "seno" "$PATH_HOME/.seno2" "$FARMER_HOST:18447"
-sh exec.sh "$PATH_FORKS/silicoin-blockchain" "sit" "$PATH_HOME/.sit" "$FARMER_HOST:10447"
 sh exec.sh "$PATH_FORKS/socks-blockchain" "socks" "$PATH_HOME/.socks" "$FARMER_HOST:58447"
 sh exec.sh "$PATH_FORKS/spare-blockchain" "spare" "$PATH_HOME/.spare-blockchain" "$FARMER_HOST:9447"
 sh exec.sh "$PATH_FORKS/taco-blockchain" "taco" "$PATH_HOME/.taco" "$FARMER_HOST:18623"
@@ -34,11 +32,10 @@ sh exec.sh "$PATH_FORKS/lucky-blockchain" "lucky" "$PATH_HOME/.lucky" "$FARMER_H
 sh exec.sh "$PATH_FORKS/scam-blockchain" "scam" "$PATH_HOME/.scam" "$FARMER_HOST:9775"
 sh exec.sh "$PATH_FORKS/ext9-blockchain" "chia" "$PATH_HOME/.chia/ext9" "$FARMER_HOST:38447"
 sh exec.sh "$PATH_FORKS/tranzact-blockchain" "tranzact" "$PATH_HOME/.tranzact" "$FARMER_HOST:8652"
-
 sh exec.sh "$PATH_FORKS/btcgreen-blockchain" "btcgreen" "$PATH_HOME/.btcgreen" "$FARMER_HOST:18655"
 sh exec.sh "$PATH_FORKS/mint-blockchain" "mint" "$PATH_HOME/.mint" "$FARMER_HOST:29227"
 sh exec.sh "$PATH_FORKS/mogua-blockchain" "mogua" "$PATH_HOME/.mogua" "$FARMER_HOST:6330"
-sh exec.sh "$PATH_FORKS/staicoin-blockchain" "staicoin" "$PATH_HOME/.staicoin" "$FARMER_HOST:1692"
+sh exec.sh "$PATH_FORKS/staicoin-blockchain" "stai" "$PATH_HOME/.stai" "$FARMER_HOST:1692"
 sh exec.sh "$PATH_FORKS/aedge-blockchain" "aedge" "$PATH_HOME/.aedge" "$FARMER_HOST:8959"
-
-
+sh exec.sh "$PATH_FORKS/stor-blockchain" "stor" "$PATH_HOME/.stor" "$FARMER_HOST:8338"
+sh exec.sh "$PATH_FORKS/silicoin-blockchain" "sit" "$PATH_HOME/.sit" "$FARMER_HOST:22447"

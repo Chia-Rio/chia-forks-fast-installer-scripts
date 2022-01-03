@@ -34,4 +34,5 @@ cd $PATH_CHIA
 $EXEC_FILE configure --enable-upnp false
 $EXEC_FILE configure --log-level INFO
 $EXEC_FILE configure --set-farmer-peer $FARMER_HOST
+$EXEC_FILE init --fix-ssl-permissions
 echo "deactivate"
