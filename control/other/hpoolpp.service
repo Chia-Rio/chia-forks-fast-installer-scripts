@@ -1,0 +1,16 @@
+[Unit]
+Description=Hpool mining PP
+After=network.target
+
+[Service]
+User=hpool
+Group=hpool
+Type=simple
+ExecStart=/bin/bash /usr/share/hpool_miner/pp/hpool-miner-chia-pp.sh
+TimeoutStartSec=0
+StartLimitBurst=10
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

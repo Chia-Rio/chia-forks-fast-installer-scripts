@@ -17,7 +17,7 @@ echo "-------------------"
 PATH_CHIA=$1
 EXEC_FILE=$2
 MYSRC=$(pwd)
-
+PATH_KEYS="$MYSRC"
 RESTORE='\033[0m'
 RED='\033[00;31m'
 GREEN='\033[00;32m'
@@ -25,13 +25,13 @@ GREEN='\033[00;32m'
 cd $PATH_CHIA
 . ./activate
 
-if [ -s $MYSRC/add_plots.txt ]
+if [ -s $PATH_KEYS/add_plots.txt ]
 then
   while read LINE
     do
     $EXEC_FILE plots add -d $LINE
-  done < $MYSRC/add_plots.txt
+  done < $PATH_KEYS/add_plots.txt
 else
-  echo "${RED}er: Plots file not found $MYSRC/add_plots.txt${RESTORE}"
+  echo "${RED}er: Plots file not found $PATH_KEYS/add_plots.txt${RESTORE}"
 fi
 echo "deactivate"

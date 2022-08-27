@@ -9,7 +9,7 @@ fi
 echo "-------------------"
 echo "--- Chia.Moscow ---"
 echo "-------------------"
-echo "---- ADD PLOTS ----"
+echo "---- DEL PLOTS ----"
 echo "-------------------"
 echo "----\033[00;32m $2 \033[0m----"
 echo "-------------------"
@@ -17,7 +17,7 @@ echo "-------------------"
 PATH_CHIA=$1
 EXEC_FILE=$2
 MYSRC=$(pwd)
-
+PATH_KEYS="$MYSRC"
 RESTORE='\033[0m'
 RED='\033[00;31m'
 GREEN='\033[00;32m'
@@ -25,13 +25,13 @@ GREEN='\033[00;32m'
 cd $PATH_CHIA
 . ./activate
 
-if [ -s $MYSRC/del_plots.txt ]
+if [ -s $PATH_KEYS/del_plots.txt ]
 then
   while read LINE
     do
     $EXEC_FILE plots remove -d "$LINE"
-  done < $MYSRC/del_plots.txt
+  done < $PATH_KEYS/del_plots.txt
 else
-  echo "${RED}er: Plots file not found $MYSRC/del_plots.txt${RESTORE}"
+  echo "${RED}er: Plots file not found $PATH_KEYS/del_plots.txt${RESTORE}"
 fi
 echo "deactivate"

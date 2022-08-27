@@ -1,0 +1,17 @@
+[Unit]
+Description=Hpool mining OG
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+User=hpool
+Group=hpool
+Type=simple
+ExecStart=/bin/bash /usr/share/hpool_miner/og/hpool-miner-chia-og.sh
+TimeoutStartSec=0
+StartLimitBurst=10
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
