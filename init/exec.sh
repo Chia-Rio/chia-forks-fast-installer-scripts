@@ -13,12 +13,13 @@ EXEC_FILE=$2
 TEMP_PATH_CHIA=$3
 FARMER_HOST=$4
 MYSRC=$(pwd)
+PATH_="$MYSRC/scripts"
 
-#sh $MYSRC/add_keys.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавление ключей
-#sh $MYSRC/del_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Удаление плотов
-#sh $MYSRC/add_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавление плотов
-sh $MYSRC/import_config.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA $FARMER_HOST # Установка значений в конфигах форков
-#sh $MYSRC/export_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Экспорт SSL
-#sh $MYSRC/import_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Импорт SSL
+#sh $PATH_/add_keys.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавление ключей
+#sh $PATH_/del_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Удаление плотов
+#sh $PATH_/add_plots.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Добавление плотов
+#sh $PATH_/import_config.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA $FARMER_HOST # Установка значений в конфигах форков
+#sh $PATH_/export_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Экспорт SSL
+#sh $PATH_/import_ssl.sh $PATH_CHIA $EXEC_FILE $TEMP_PATH_CHIA #Импорт SSL
 exit
 echo "deactivate"

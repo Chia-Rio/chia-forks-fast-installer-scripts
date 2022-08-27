@@ -5,8 +5,8 @@ sudo apt-get upgrade -y
 sudo apt-get install git -y
 sudo apt-get install git -y
 sudo apt install git -y
-git clone https://github.com/ChainGreenOrg/chaingreen-blockchain
-cd chaingreen-blockchain
+git clone https://github.com/Petroleum-Network/petroleum-blockchain
+cd petroleum-blockchain
 sh install.sh
 . ./activate
-chaingreen init
+petroleum init

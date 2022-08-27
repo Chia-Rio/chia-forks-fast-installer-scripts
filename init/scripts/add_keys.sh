@@ -34,7 +34,7 @@ else
 	exit
 fi
 
-#Если нужно удалить все ключи 
+#\u0415\u0441\u043b\u0438 \u043d\u0443\u0436\u043d\u043e \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u0441\u0435 \u043a\u043b\u044e\u0447\u0438 
 #$EXEC_FILE keys delete_all
 
 KEYS_LIST=`ls $PATH_KEYS/*.txt`
